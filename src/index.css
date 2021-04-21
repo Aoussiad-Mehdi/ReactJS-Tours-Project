@@ -1,0 +1,103 @@
+/* Just basic CSS */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  font-weight: 800;
+  margin: 20px 0;
+  font-size: 45px;
+  text-decoration: underline;
+  text-align: center;
+}
+#loading{
+  font-weight: 800;
+  margin-top: 150px;
+  font-size: 50px;
+}
+h2{
+  font-weight: 800;
+  margin-top: 150px;
+  font-size: 50px;
+}
+.refresh{
+  background: rgb(78, 78, 255);
+  padding: 15px 29px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  color: aliceblue;
+  cursor: pointer;
+  z-index: 10;
+  font-weight: bold;
+}
+.tours{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.tour{
+  height: auto;
+  width: 550px;
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.tour img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.tour .txt{
+  display: flex;
+  padding: 15px 0;
+}
+.tour .txt h4{
+  margin: 0px 30px;
+}
+.tour #txtBtn{
+  background: transparent;
+  border: none;
+  outline: none;
+  color: rgb(112, 112, 248);
+  cursor: pointer;
+  font-weight: bold;
+  margin: 0 5px;
+  text-decoration: underline;
+}
+#deleteBtn{
+  margin: 15px 0;
+  padding: 15px 35px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid rgb(172, 3, 3);
+  outline: none;
+  color: rgb(172, 3, 3);
+}
+p{
+  padding: 15px;
+  line-height: 18px;
+  color: rgb(61, 61, 61);
+}
